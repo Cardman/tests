@@ -18,6 +18,7 @@
 <jdk.version>1.8</jdk.version>
 </properties>
 <build>
+<plugins>
 <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -26,6 +27,6 @@
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
-			</plugin>
+			</plugin></plugins>
 </build>
 </project>
