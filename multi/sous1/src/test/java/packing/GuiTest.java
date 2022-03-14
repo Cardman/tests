@@ -18,7 +18,8 @@ public class GuiTest{
 		try {
 			JFrame p = new JFrame();
 		} catch (Throwable t){
-			Assert.fail("KO frame");
+			t.printStackTrace();
+			//Assert.fail("KO frame");
 		}
 	}
 }
